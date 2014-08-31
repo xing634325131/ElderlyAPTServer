@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	<display-name>web</display-name>
+	<filter>
+		<display-name>EncodingFilter</display-name>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>com.kingtime.elderlyapt.filter.EncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>RegisterServlet</servlet-name>
+		<servlet-class>com.kingtime.elderlyapt.servlet.RegisterServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ActivityServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.ActivityServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DutyServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.DutyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecordServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.RecordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadImageServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.UploadImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestImageServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.RequestImageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EvaluateServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.EvaluateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessagePushServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.MessagePushServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChatRecordServlet</servlet-name>
+    <servlet-class>com.kingtime.elderlyapt.servlet.ChatRecordServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>RegisterServlet</servlet-name>
+		<url-pattern>/servlet/RegisterServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActivityServlet</servlet-name>
+    <url-pattern>/servlet/ActivityServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/servlet/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DutyServlet</servlet-name>
+    <url-pattern>/servlet/DutyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecordServlet</servlet-name>
+    <url-pattern>/servlet/RecordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadImageServlet</servlet-name>
+    <url-pattern>/servlet/UploadImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestImageServlet</servlet-name>
+    <url-pattern>/servlet/RequestImageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EvaluateServlet</servlet-name>
+    <url-pattern>/servlet/EvaluateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/servlet/SearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessagePushServlet</servlet-name>
+    <url-pattern>/servlet/MessagePushServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChatRecordServlet</servlet-name>
+    <url-pattern>/servlet/ChatRecordServlet</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
